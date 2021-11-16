@@ -1,0 +1,23 @@
+Meber_data02.csv :
+마지막 수정시간 : (2021-11-15 16:15)
+내용 : 수정 없음. 원본 그대로
+
+Product_data.csv :
+마지막 수정시간 : (2021-11-15 16:15)
+내용 : Code(대분류를 영어로 표현한 것), ItemNumber(카테고리 미고려 아이템고유번호), UPC(카테고리 고려 상품고유번호), 상위제품명(개수를 무시할 수 있는 상위 제품명)	
+
+Sales_data02 :
+마지막 수정시간 : (2021-11-15 16:15)	
+내용 : 수정 없음, 원본 그대로
+
+SMP_left_Order(except2020Member)_w_discount :
+마지막 수정시간 : (2021-11-15 16:15)
+내용 : sales, member, product를 모두 left 조인하고, 할인적용률 컬럼 추가
+회원정보가 있는 고객이 구매한 것만 남김, 나머지 drop
+
+SMP_left_totalOrder_w_discount :
+마지막 수정시간 : (2021-11-15 16:15)
+내용 :  sales, member, product를 모두 left 조인하고, 할인적용률 컬럼 추가
+모든 sales데이터가 있음. sales와 회원정보가 매칭되지 않는 row 존재
+
+
